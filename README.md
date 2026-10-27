@@ -53,3 +53,7 @@ A self-hosted, modded Minecraft server deployed on Google Cloud Platform. This p
 ## Tech Used
 
 Google Cloud | Compute Engine | Debian Linux | SSH | Persistent SSD | Java | C++ | Networking
+
+## Notes
+
+- Geyser reports a NetherNet port conflict because RakNet and NetherNet are configured to the same UDP port. Bedrock connections are working however so this warning does not prevent Bedrock players from joining. May fix this non issue in the future.
