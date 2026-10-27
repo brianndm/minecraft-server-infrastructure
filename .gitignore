@@ -1,0 +1,9 @@
+# Secrets and credentials
+.env
+*.pem
+*.key
+service-account*.json
+
+# Local editor settings
+.vscode/
+.idea/
