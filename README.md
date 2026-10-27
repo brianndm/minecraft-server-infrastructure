@@ -4,10 +4,14 @@ A self-hosted, modded Minecraft server deployed on Google Cloud Platform. This p
 
 ## Architecture and Infrasturcture
 
-- Cloud Provider: Google Cloud Platform
-- Compute: Compute Engine VM
-- OS: Debian
-- Storage: SSD persistent disk
+- Cloud Provider: Google Cloud Platform (GCP)
+- Compute: Google Compute Engine
+- Machine Type: e2-custom-4-10240
+- Resources: 4 vCPUs | 10 GB RAM
+- OS: Debian GNU/Linux
+- Memory: 10 GB Ram (~ 7 GB allocated)
+- Boot Disk: 10 GB SSD
+- Persistent Storage: 50 GB SSD
 - Networking: External connectivity (cross platform) and firewall config
 
 ## Provisioning
